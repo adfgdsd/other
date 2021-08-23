@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="web-name">
+            <h1>Do<span>nets</span></h1>
+        </div>
+
+        <nav id="manu-bar">
+            <ul>
+                <i class="fas fa-home"></i>
+                <li><a href="#" class="home">home</a> </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#" class="contract">Contract</a></li>
+
+                <a href="signin.htm"><button class="sign"><i class="fas fa-user"></i>sign <span class="in">in</span> </button></a>                
+                <a href="login.html"><button class="log"><i class="fas fa-sign-in-alt"></i> Log <span class="in">in</span></button></a>
+            </ul>
+        </nav>
+        <i class="fas fa-bars" id="btn"></i>
+    </div>  
+
+    <div class="body-in">
+        <h2>Wellcome to blood donation society</h2>
+        <video controls>
+            <source src="blood.MP4">
+        </video>
+
+<script>
+    let btn=document.querySelector('#btn');
+    let nav=document.querySelector('#manu-bar')
+    btn.addEventListener('click',()=>{
+        nav.classList.toggle('active')
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Spartan&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right,#188de0,#ec5858);}
+
+body #containar2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#containar2{
+    width: 310px;
+}
+h1 span{
+    color: red;
+}
+#containar2{
+    box-sizing: border-box;
+    /* padding: 10px; */
+    background-image: linear-gradient(to right,#188de0,#ec5858);    height: 550px;
+    /* width: 450px; */
+}
+
+
+#containar2 i{
+    font-size: 35px;
+    color: greenyellow;
+    float: right;
+    position: relative;
+}
+
+#containar2 i:hover{
+  color: rgb(140, 228, 9);
+
+}
+
+#containar2 span{
+    color: red;
+    float: right;
+    margin-top: 12px;
+    margin-right: 5px;
+    visibility: hidden;    
+}
+
+ span:hover{ 
+    visibility: visible;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#username #email #password #surename:focus{
+    font-size: 1rem;
+}
+
+#username,#email,#password,#radio{
+    margin-top: 5px;
+}
+
+#email,#password{
+    width: 100%;
+}
+
+#username,#surename{
+    width: 49%;
+}
+
+p #Gender{
+    border: 1px solid red;
+}
+
+#checkbox input:checked ~ #checkbox{
+    color: green;
+}
+
+.sign{
+    background-image: linear-gradient(to right,#188de0,#ec5858); 
+    border-radius: 8px;
+    width: 220px;
+    margin-top: 20px;
+    margin-left: 25%;
+    color: greenyellow;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sign:hover{
+    background-image: linear-gradient(to right,#ec5858,#188de0);
+    width: 240px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+
